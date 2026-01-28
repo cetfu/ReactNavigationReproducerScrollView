@@ -1,11 +1,11 @@
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 import { Navigator } from './src/navigation/root.ts';
-import { SystemBars } from 'react-native-edge-to-edge';
+import { StatusBar } from 'react-native';
 
 function App() {
   return (
     <SafeAreaProvider>
-      <SystemBars style={"dark"} />
+      <StatusBar barStyle={"dark-content"} />
       <Navigator />
     </SafeAreaProvider>
   );
