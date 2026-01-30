@@ -12,9 +12,9 @@ const Card: React.FC = () => {
 
 const styles = StyleSheet.create({
   container: {
-    height: 326,
+    height: 10000,
     width: "100%",
-    backgroundColor: 'red',
+    experimental_backgroundImage: "linear-gradient(red, black)",
     paddingHorizontal: 24,
   },
 });
