@@ -3,7 +3,12 @@ import { AppContent } from '../screens/home.tsx';
 
 export const HomeTab = createBottomTabNavigator({
   screens: {
-    Home: AppContent
+    Home: {
+      screen: AppContent,
+    },
   },
-  implementation: "native"
-})
+  screenOptions: {
+    overrideScrollViewContentInsetAdjustmentBehavior: false
+  },
+  implementation: 'native',
+});

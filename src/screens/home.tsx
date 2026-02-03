@@ -3,26 +3,22 @@ import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { Card } from '../components/card.tsx';
 
 export function AppContent() {
-  const insets = useSafeAreaInsets()
+  const insets = useSafeAreaInsets();
 
   return (
     <ScrollView
       style={styles.container}
-      contentContainerStyle={{paddingBottom: insets.bottom}}
+      contentContainerStyle={{ paddingBottom: insets.bottom }}
       showsVerticalScrollIndicator={false}
       bounces={false}
     >
       <Card />
     </ScrollView>
-);
+  );
 }
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
   },
-  content: {
-    backgroundColor: "red",
-    flex: 1
-  }
 });

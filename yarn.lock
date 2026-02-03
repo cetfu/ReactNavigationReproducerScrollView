@@ -1726,19 +1726,19 @@
     invariant "^2.2.4"
     nullthrows "^1.1.1"
 
-"@react-navigation/bottom-tabs@^8.0.0-alpha.3":
-  version "8.0.0-alpha.3"
-  resolved "https://registry.yarnpkg.com/@react-navigation/bottom-tabs/-/bottom-tabs-8.0.0-alpha.3.tgz#1db543efd3e067bbda60cc329668fb09d48dec7c"
-  integrity sha512-k+sUD8i/IqkE3fkGhkcCDHIKZhzhN0NF5bzb7dWlDCEpIiD8RWIq/X68yuFWIn8wVkMLz0arbykqOBmnIrWxSA==
+"@react-navigation/bottom-tabs@^8.0.0-alpha.8":
+  version "8.0.0-alpha.8"
+  resolved "https://registry.yarnpkg.com/@react-navigation/bottom-tabs/-/bottom-tabs-8.0.0-alpha.8.tgz#8a9ff26532031bf7b6fe9a7575c89f1a51a6a1c3"
+  integrity sha512-yav3aA+WzH3+HSRurPaBHoMCG0s8SV2YY9cjxZviHj5tWtQ/TNcxHfYQYPQCGNOQnwsDUcQqpd2jmrizr42alQ==
   dependencies:
-    "@react-navigation/elements" "^3.0.0-alpha.3"
+    "@react-navigation/elements" "^3.0.0-alpha.8"
     color "^4.2.3"
     sf-symbols-typescript "^2.2.0"
 
-"@react-navigation/core@^8.0.0-alpha.2":
-  version "8.0.0-alpha.2"
-  resolved "https://registry.yarnpkg.com/@react-navigation/core/-/core-8.0.0-alpha.2.tgz#5337253f84a34cca4055b663b961c2c35db2edea"
-  integrity sha512-xyUQEWD2tkfl9J6Wjh921fpdAJMm2mnfUHAKMsvVi5nqnyRP81p5TtMayOGdLxJFmfApqSRSn8X8peLYBFe1pA==
+"@react-navigation/core@^8.0.0-alpha.3":
+  version "8.0.0-alpha.3"
+  resolved "https://registry.yarnpkg.com/@react-navigation/core/-/core-8.0.0-alpha.3.tgz#72867ffa477b8191c6a8ee4290e295df6aa994ad"
+  integrity sha512-ZxOVmiGtCfMJeSIyQmI/DZv/69XnipjqMnh7jY/2zB0CBjU4+I0IN8+c1siwt+MTFGCpEX+Pn5U5e5EMzKZYng==
   dependencies:
     "@react-navigation/routers" "^8.0.0-alpha.1"
     escape-string-regexp "^4.0.0"
@@ -1749,30 +1749,30 @@
     use-latest-callback "^0.3.2"
     use-sync-external-store "^1.5.0"
 
-"@react-navigation/elements@^3.0.0-alpha.3":
-  version "3.0.0-alpha.3"
-  resolved "https://registry.yarnpkg.com/@react-navigation/elements/-/elements-3.0.0-alpha.3.tgz#2fee596e2b6b0e55c0587dd46e0643860c362676"
-  integrity sha512-ZSAONnAEWOolBcHTZqF8qXc2YYMv943aNCyPaTsDj9W7OndPoKmOUHe/PukUQV2p6Cn+1Q7pMOoOruQctWDdcg==
+"@react-navigation/elements@^3.0.0-alpha.8":
+  version "3.0.0-alpha.8"
+  resolved "https://registry.yarnpkg.com/@react-navigation/elements/-/elements-3.0.0-alpha.8.tgz#6583bcc884027a3cae107e2fb4e2c91622fe9782"
+  integrity sha512-9ZUPRwW4yjbOO2W9bvv/49c9oJ4HOm0kp9LRlEVf3S/Zj3BXDFHuFB1NmfLaVt90t/ekclMbElQqFRye7/fKTA==
   dependencies:
     color "^4.2.3"
     use-latest-callback "^0.3.2"
     use-sync-external-store "^1.5.0"
 
-"@react-navigation/native-stack@^8.0.0-alpha.3":
-  version "8.0.0-alpha.3"
-  resolved "https://registry.yarnpkg.com/@react-navigation/native-stack/-/native-stack-8.0.0-alpha.3.tgz#cb52f5a2cd0cf2a17ff34190a9f42810959c45b4"
-  integrity sha512-HeRziNarJ7XncdsCIdr2KNFOmiu7m9kM2PKL8fP+kJCB3S95dFECm6piiiP3Vrz0nUApmpk5NPrNNeaG40EpQw==
+"@react-navigation/native-stack@^8.0.0-alpha.8":
+  version "8.0.0-alpha.8"
+  resolved "https://registry.yarnpkg.com/@react-navigation/native-stack/-/native-stack-8.0.0-alpha.8.tgz#244ba50c784201df58110be2209fb0892b8758c8"
+  integrity sha512-pf2JQw/HBK6bnIZD1pVQM+b2ePIielYvM9JeLYui3Kjsqw80k6arZtGqaOc+Ixc1moFi4snZq/WBjyOSsO3nMA==
   dependencies:
-    "@react-navigation/elements" "^3.0.0-alpha.3"
+    "@react-navigation/elements" "^3.0.0-alpha.8"
     sf-symbols-typescript "^2.2.0"
     warn-once "^0.1.1"
 
-"@react-navigation/native@^8.0.0-alpha.3":
-  version "8.0.0-alpha.3"
-  resolved "https://registry.yarnpkg.com/@react-navigation/native/-/native-8.0.0-alpha.3.tgz#fe1313bd58097c1dd9c4c7d437c9e975b2099f7a"
-  integrity sha512-CKBOLzE/3DrNi3y2Z4io4Asbn1bOLOpwvOaTj5w+mc4bYgDZeG0VJTtMJlrONlVYede1+3m2W31pjKAfEnvDMg==
+"@react-navigation/native@^8.0.0-alpha.8":
+  version "8.0.0-alpha.8"
+  resolved "https://registry.yarnpkg.com/@react-navigation/native/-/native-8.0.0-alpha.8.tgz#e1df9e4e5cc49898b9242701f078f9d78a170233"
+  integrity sha512-n22GETbM0zv2NPrdR4EGe4wc1TYvfsQe09zhDD9hoKb0WzvqoVlOF656pTsj5gbun4wRhb3hDN3DXj7/Oo6YMA==
   dependencies:
-    "@react-navigation/core" "^8.0.0-alpha.2"
+    "@react-navigation/core" "^8.0.0-alpha.3"
     escape-string-regexp "^4.0.0"
     fast-deep-equal "^3.1.3"
     nanoid "^3.3.11"
